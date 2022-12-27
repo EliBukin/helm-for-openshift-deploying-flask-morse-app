@@ -1,5 +1,13 @@
 Usage:
 
+clone the repo:
+
+    git clone https://github.com/EliBukin/helm-for-openshift-deploying-flask-morse-app.git
+
+change directory to helm-for-openshift-deploying-flask-morse-app:
+
+    cd helm-for-openshift-deploying-flask-morse-app
+
 log in to your openshift:
 
     oc login <cluster URL> --username <username> --password <password>
