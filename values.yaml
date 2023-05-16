@@ -52,7 +52,7 @@ ingress:
     #- host: chart-example.local
     - host: flask-morse-app.apps.test-app-03.41m3.p1.openshiftapps.com
       paths:
-        - path: /morse/example
+        - path: /morse/
           pathType: ImplementationSpecific
   tls: 
   - {}
